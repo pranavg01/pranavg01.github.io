@@ -6,4 +6,7 @@ h1 {
 .titlebox {
  color: red;
  opacity: 75%;
+ position: static;
+ top: 20px;
+ left: 20px;
 }
