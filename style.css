@@ -2,11 +2,3 @@ h1 {
  color: #15E247;
  text-align: center;
 }
-
-.titlebox {
- color: red;
- opacity: 75%;
- position: static;
- top: 20px;
- left: 20px;
-}
