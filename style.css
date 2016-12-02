@@ -15,9 +15,21 @@
  border: 10px solid #F10303;
  overflow: hidden;
  background: #F10303;
- box-shadow: 0 0 3px #D1CDCD;
+ box-shadow: 0 0 3px gray;
 }
 
 .buttongeneral a {
- 
+ display: block;
+ float: left;
+ width: 100px;
+ padding-top: 50px;
+ padding-bottom: 50px;
+ line-height: 1em;
+ margin-top: -0.5em;
+ text-align: center;
+ color: #e2eaf3;
+ font-family: Verdana;
+ font-size: 1.2em;
+ font-weight: bold;
+ text-decoration: none;
 }
