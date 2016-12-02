@@ -1,8 +1,4 @@
-h1 {
- color: #15E247;
+.title {
+ color: #15C923;
  text-align: center;
-}
-
-button {
- border-radius: 50px;
 }
