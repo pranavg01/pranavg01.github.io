@@ -1,37 +1,20 @@
-.title {
- color: #15C923;
- text-align: center;
+* {
+ margin = 0;
 }
 
-.buttongeneral {
- width: 25%;
-}
-
-.option1 {
- width: 100%;
- height: 0;
- padding-bottom: 100%;
- border-radius: 50%;
- border: 10px solid #F10303;
- overflow: hidden;
- background: #F10303;
- box-shadow: 0 0 3px gray;
-}
-
-.buttongeneral a {
- display: block;
- float: left;
- width: 100px;
+#title {
+ font size 100px;
+ 
  padding-top: 50px;
- padding-bottom: 50px;
- line-height: 1em;
- margin-top: -0.5em;
  text-align: center;
- color: #e2eaf3;
- font-family: Verdana;
- font-size: 1.2em;
- font-weight: bold;
- text-decoration: none;
+ font-family: "Comic Sans MS", cursive, sans-serif;
+ color: #13BF23;
 }
 
-
+a {
+ position: absoloute; 
+ border-radius: 50%;
+ width: 100%;
+ height: 100%;
+ display: inline;
+}
