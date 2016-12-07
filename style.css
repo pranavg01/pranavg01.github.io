@@ -37,3 +37,7 @@ header p{
  font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
  font-size: 150%;
 }
+
+.gallery_title: hover{
+ text-decoration: underline;
+}
