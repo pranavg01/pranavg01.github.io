@@ -31,7 +31,8 @@ header p{
  text-decoration: underline;
 }
 
-.dev {
- border: solid 5px red;
+.gallery_title{
+ color: black;
+ position: absoloute;
+ font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
 }
-
