@@ -38,6 +38,6 @@ header p{
  font-size: 150%;
 }
 
-.gallery_title: hover{
+.gallery_title:hover{
  text-decoration: underline;
 }
