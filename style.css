@@ -34,5 +34,6 @@ header p{
 section .row img {
   margin: 0 15px 0 15px;
   padding: 0 15px 0 15px;
+ border: 15px
   width: 100%;
 }
