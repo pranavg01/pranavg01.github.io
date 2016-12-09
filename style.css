@@ -1,9 +1,6 @@
 header{
  width: 100%;
   position: fixed;
-}
-
-#navoptions{
   display: flex;
  justify-content: flex-end;
 }
