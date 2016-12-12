@@ -1,5 +1,3 @@
-var thing = function(){
-
 //All measurements are in meters
 
 var scaleObject = prompt("What is the diameter of your scaled sun?");
@@ -52,5 +50,3 @@ uranus.scaleDistance();
 var neptune = new planet(50724000, 2871000000000);
 neptune.scaleDiameter();
 neptune.scaleDistance();
-
-}
