@@ -33,25 +33,31 @@ earth.scaleDiameter();
 earth.scaleDistance();
 
 var mars = new planet();
-mars.diameter = 12742000;
-mars.distance = 149600000000;
+mars.diameter = 6779000;
+mars.distance = 227900000;
 mars.scaleDiameter();
 mars.scaleDistance();
 
 var jupiter = new planet();
-jupiter.diameter = 12742000;
-jupiter.distance = 149600000000;
+jupiter.diameter = 139822000;
+jupiter.distance = 778500000000;
 jupiter.scaleDiameter();
 jupiter.scaleDistance();
 
 var saturn = new planet();
-saturn.diameter = 12742000;
-saturn.distance = 149600000000;
+saturn.diameter = 116464000;
+saturn.distance = 1429000000000;
 saturn.scaleDiameter();
 saturn.scaleDistance();
 
 var uranus = new planet();
-uranus.diameter = 12742000;
-uranus.distance = 149600000000;
+uranus.diameter = 50724000;
+uranus.distance = 2871000000000;
 uranus.scaleDiameter();
 uranus.scaleDistance();
+
+var neptune = new planet();
+neptune.diameter = 50724000;
+neptune.distance = 2871000000000;
+neptune.scaleDiameter();
+neptune.scaleDistance();
