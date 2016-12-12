@@ -1,7 +1,7 @@
 //All measurements are in meters
 
 var scaleObject = prompt("What is the diameter of your scaled sun?");
-var scaleFactor = 1391400000/scaleObject;
+var scaleFactor = scaleObject/1391400000;
 
 //planet constructor
 
