@@ -8,21 +8,21 @@ var scaleFactor = 1391400000/scaleObject;
 function planet(diameter, distance){
 this.diameter = diameter;
 this.distance = distance;
-this.scaledDiameter = function(){
+this.scaleDiameter = function(){
 return diameter*scaleFactor;
 };
-this.scaledDistance = function(){
+this.scaleDistance = function(){
  return distance*scaleFactor; 
 };
 }
 
 var mercury = new planet(4879000, 57910000000);
-mercury.scaledDiameter();
-mercury.scaledDistance();
+mercury.scaleDiameter();
+mercury.scaleDistance();
 
 var venus = new planet(12104000, 108200000000);
-venus.scaledDiameter();
-venus.scaledDistance();
+venus.scaleDiameter();
+venus.scaleDistance();
 
 var earth = new planet(12742000, 149600000000);
 earth.diameter = 12742000;
