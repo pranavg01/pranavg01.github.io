@@ -71,8 +71,8 @@ document.getElementById("eds").innerHTML = earth.distance;
 document.getElementById("sed").innerHTML = earth.scaleDiameter();
 document.getElementById("seds").innerHTML = earth.scaleDistance();
 
-document.getElementById("ms").innerHTML = "Earth";
-document.getElementById("msd").innerHTML = earth.diameter;
-document.getElementById("msds").innerHTML = earth.distance;
-document.getElementById("smsd").innerHTML = earth.scaleDiameter();
-document.getElementById("smsds").innerHTML = earth.scaleDistance();
+document.getElementById("ms").innerHTML = "Mars";
+document.getElementById("msd").innerHTML = mars.diameter;
+document.getElementById("msds").innerHTML = mars.distance;
+document.getElementById("smsd").innerHTML = mars.scaleDiameter();
+document.getElementById("smsds").innerHTML = mars.scaleDistance();
