@@ -64,3 +64,9 @@ document.getElementById("vd").innerHTML = venus.diameter;
 document.getElementById("vds").innerHTML = venus.distance;
 document.getElementById("svd").innerHTML = venus.scaleDiameter();
 document.getElementById("svds").innerHTML = venus.scaleDistance();
+
+document.getElementById("e").innerHTML = "Earth";
+document.getElementById("ed").innerHTML = earth.diameter;
+document.getElementById("eds").innerHTML = earth.distance;
+document.getElementById("sed").innerHTML = earth.scaleDiameter();
+document.getElementById("seds").innerHTML = earth.scaleDistance();
