@@ -57,4 +57,4 @@ document.getElementById("m").innerHTML = "Mercury";
 document.getElementById("md").innerHTML = mercury.diameter;
 document.getElementById("mds").innerHTML = mercury.distance;
 document.getElementById("smd").innerHTML = mercury.scaleDiameter();
-document.getElementById("smds").innerHTML = mercury.scaleDistance;
+document.getElementById("smds").innerHTML = mercury.scaleDistance();
