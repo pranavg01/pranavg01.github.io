@@ -59,8 +59,8 @@ document.getElementById("mds").innerHTML = mercury.distance;
 document.getElementById("smd").innerHTML = mercury.scaleDiameter();
 document.getElementById("smds").innerHTML = mercury.scaleDistance();
 
-document.getElementById("v").innerHTML = "Venus";
-document.getElementById("vd").innerHTML = venus.diameter;
-document.getElementById("vds").innerHTML = venus.distance;
-document.getElementById("smvd").innerHTML = venus.scaleDiameter();
-document.getElementById("svds").innerHTML = venus.scaleDistance();
+document.getElementById("v").innerHTML = "Mercury";
+document.getElementById("vd").innerHTML = mercury.diameter;
+document.getElementById("vds").innerHTML = mercury.distance;
+document.getElementById("svd").innerHTML = mercury.scaleDiameter();
+document.getElementById("svds").innerHTML = mercury.scaleDistance();
