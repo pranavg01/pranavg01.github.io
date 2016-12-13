@@ -54,4 +54,4 @@ neptune.scaleDiameter();
 neptune.scaleDistance();
 
 //assigning variables to 
-document.getElementsById("mercury").innerHTML = "Mercury";
+document.getElementById("mercury").innerHTML = "Mercury";
