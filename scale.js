@@ -10,10 +10,12 @@ function planet(diameter, distance){
 this.diameter = diameter;
 this.distance = distance;
 this.scaleDiameter = function(){
-return diameter*scaleFactor;
+var y = diameter*scaleFactor;
+ return y;
 };
 this.scaleDistance = function(){
- return distance*scaleFactor; 
+ var x = distance*scaleFactor;
+ return x;
 };
 }
 
@@ -50,3 +52,44 @@ uranus.scaleDistance();
 var neptune = new planet(50724000, 2871000000000);
 neptune.scaleDiameter();
 neptune.scaleDistance();
+
+//assigning variables to 
+document.getElementById("mercury").innerhtml = "Mercury";
+document.getElementById().innerhtml = ;
+document.getElementById().innerhtml = ;
+document.getElementById().innerhtml = ;
+
+document.getElementById().innerhtml = ;
+document.getElementById().innerhtml = ;
+document.getElementById().innerhtml = ;
+document.getElementById().innerhtml = ;
+
+document.getElementById().innerhtml = ;
+document.getElementById().innerhtml = ;
+document.getElementById().innerhtml = ;
+document.getElementById().innerhtml = ;
+
+document.getElementById().innerhtml = ;
+document.getElementById().innerhtml = ;
+document.getElementById().innerhtml = ;
+document.getElementById().innerhtml = ;
+
+document.getElementById().innerhtml = ;
+document.getElementById().innerhtml = ;
+document.getElementById().innerhtml = ;
+document.getElementById().innerhtml = ;
+
+document.getElementById().innerhtml = ;
+document.getElementById().innerhtml = ;
+document.getElementById().innerhtml = ;
+document.getElementById().innerhtml = ;
+
+document.getElementById().innerhtml = ;
+document.getElementById().innerhtml = ;
+document.getElementById().innerhtml = ;
+document.getElementById().innerhtml = ;
+
+document.getElementById().innerhtml = ;
+document.getElementById().innerhtml = ;
+document.getElementById().innerhtml = ;
+document.getElementById().innerhtml = ;
