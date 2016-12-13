@@ -56,4 +56,4 @@ neptune.scaleDistance();
 document.getElementById("m").innerHTML = "Mercury";
 document.getElementById("md").innerHTML = mercury.diameter;
 document.getElementById("mds").innerHTML = mercury.distance;
-document.getElementById("smd").innerHTML = mercury.scaleDiamter();
+document.getElementById("smd").innerHTML = mercury.scaleDiameter();
