@@ -53,5 +53,7 @@ var neptune = new planet(50724000, 2871000000000);
 neptune.scaleDiameter();
 neptune.scaleDistance();
 
+//document.getElementById("").innerHTML = ;
 //assigning variables to 
-document.getElementById("mercury").innerHTML = "Mercury";
+document.getElementById("m").innerHTML = "Mercury";
+document.getElementById("md").innerHTML = mercury.diameter;
