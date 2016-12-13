@@ -70,3 +70,9 @@ document.getElementById("ed").innerHTML = earth.diameter;
 document.getElementById("eds").innerHTML = earth.distance;
 document.getElementById("sed").innerHTML = earth.scaleDiameter();
 document.getElementById("seds").innerHTML = earth.scaleDistance();
+
+document.getElementById("ms").innerHTML = "Earth";
+document.getElementById("msd").innerHTML = earth.diameter;
+document.getElementById("msds").innerHTML = earth.distance;
+document.getElementById("smsd").innerHTML = earth.scaleDiameter();
+document.getElementById("smsds").innerHTML = earth.scaleDistance();
