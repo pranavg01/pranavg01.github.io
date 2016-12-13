@@ -10,12 +10,10 @@ function planet(diameter, distance){
 this.diameter = diameter;
 this.distance = distance;
 this.scaleDiameter = function(){
-var y = diameter*scaleFactor;
- return y;
+return diameter*scaleFactor;
 };
 this.scaleDistance = function(){
- var x = distance*scaleFactor;
- return x;
+ return distance*scaleFactor;
 };
 }
 
