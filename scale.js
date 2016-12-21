@@ -31,7 +31,7 @@ earth.distance = 149600000000;
 earth.scaleDiameter();
 earth.scaleDistance();
 
-var mars = new planet(6779000, 227900000);
+var mars = new planet(6779000, 227900000000);
 mars.scaleDiameter();
 mars.scaleDistance();
 
