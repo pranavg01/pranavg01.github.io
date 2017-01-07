@@ -2,16 +2,17 @@
 <html>
 <body>
 
-<p>Click the button to display a random number between 1 and 10.</p>
+<h1>Click the button to play a Mad Libs puzzle!</h1>
+    <p>This game is currently under development and I am still adding more puzzles.</p>
 
-<button onclick="myFunction()">Try it</button>
+<button onclick="ml">Try it</button>
 
-<p id="demo"></p>
+<p id="display"></p>
 
 <script>
-function myFunction() {
+function ml() {
     var x = Math.floor((Math.random() * 10) + 1);
-    document.getElementById("demo").innerHTML = x;
+    document.getElementById("display").innerHTML = x;
 }
 </script>
 
