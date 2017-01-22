@@ -6,31 +6,27 @@
     </head>
 <body>
 
- <h1>Click the button to play a Mad Libs puzzle!</h1>
+ <h1>Mad Libs Generator</h1>
    
-    <p class = "questions">Please Enter:</p>
-    <button onclick = "next">Next</button>
+    <p>Click the button below to Generate your Mad Lib!</p>
+    <button>Next</button>
     <script>
-       var prompts = ["A name", "An adjective", "A number", "An occupation"];
-       
-       var number = 0;
+
+        var prompt1 = prompt("Please type a name.");
+        var prompt2 = prompt("Please type an adjective");
+        var prompt3 = prompt("Please type a number");
+        var prompt4 = prompt("Please type an occupation");
         
+        var promptresults = [prompt1, prompt2, prompt3, prompt4];
+        console.log(promptresults);
+
        $("button").click(function() {
-           nextPrompt(); 
+          generate(); 
        });
         
-        var nextPrompt = function(){
-            if (number < prompts.length){
-          $(".questions").html(prompts[number]);
-            number = number + 1;
-            }
-            
-            else{
-                
-            }
-        };
-       
-       
+       var generate = function(){
+           
+       };
     </script>
     
     </body>
