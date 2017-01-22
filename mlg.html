@@ -15,11 +15,19 @@
        
        var number = 0;
         
-       $("button").click(function() {nextPrompt(); });
+       $("button").click(function() {
+           nextPrompt(); 
+       });
         
         var nextPrompt = function(){
+            if (number < prompts.length){
           $(".questions").html(prompts[number]);
             number = number + 1;
+            }
+            
+            else{
+                
+            }
         };
        
        
