@@ -1,49 +1,25 @@
 <!DOCTYPE html>
 <html>
-    <head></head>
+    <head>
+        <title>Mad Lib's Generator</title>
+    </head>
 <body>
 
  <h1>Click the button to play a Mad Libs puzzle!</h1>
-    <p>This game is currently under development and I am still adding more puzzles.</p>
    
-    <button type = "button" onclick = "ml()">Mad Libs!</button>
-
-     <p id="display"></p>
-
-<script>
-function ml() {
-    var x = Math.floor((Math.random() * 10) + 1);
+    <div class = "questions"></div>
+    <button>Next</button>
+    <script>
+       var prompts = [];
+       
+       var number = 0;
+        
+       var next = function(){
+        document.getElementsByClass("questions").innerhtml = prompts[number];
+       };
+       
+       next();
+    </script>
     
-    //mad lib 1
-    if(x == 1||2){
-        document.write("test1");
-    }
-    
-    //mad lib 2
-    if(x == 3||4){
-        document.write("test2");
-    }
-    
-    //mad lib 3
-    if(x == 5||6){
-        document.write("test3");
-    }
-    
-    //mad lib 4
-    if(x == 7||8){
-        document.write("test4");
-    }
-    
-    //mad lib 5
-    if(x == 9||10){
-        document.write("test5");
-    }
-  document.getElementById("display").innerHTML = x;
-}
-    
-  
-</script>
-    
-   
     </body>
 </html>
