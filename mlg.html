@@ -8,8 +8,9 @@
 
  <h1>Mad Libs Generator</h1>
    
-    <p>Click the button below to Generate your Mad Lib!</p>
+    <h4>Click the button below to Generate your Mad Lib!</h4>
     <button>Next</button>
+    <p id = "result"></p>
     <script>
 
         var prompt1 = prompt("Please type a name.");
@@ -25,7 +26,8 @@
        });
         
        var generate = function(){
-           
+           var product = "My name is " + promptresults[0] + ". " + "If I were to describe myself in one word, it would be " + promptresults[1] + ". " + "I am " + promptresults[2] + "years old. I work as a " + promptresults[3] + ".";  
+           document.getElementById("result").innerHTML = product;
        };
     </script>
     
