@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>Mad Lib's Generator</title>
-        <script>https://code.jquery.com/jquery-3.1.1.min.js</script>
+        <script type = "text/javascript" src = "https://code.jquery.com/jquery-3.1.1.min.js"></script>
     </head>
 <body>
 
@@ -15,7 +15,12 @@
        
        var number = 0;
         
-       
+       $("button").click(function() {nextPrompt(); });
+        
+        var nextPrompt = function(){
+          $(".questions").html(prompts[number]);
+            number = number + 1;
+        };
        
        
     </script>
