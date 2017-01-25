@@ -30,7 +30,8 @@ ul > li > a:hover {
 }
 
 #header {
- font-size: 40px;
+ font-size: 25px;
  color: #ffffff;
  padding: 30 0 30 30
+  text-align: right;
 }
