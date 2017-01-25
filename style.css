@@ -28,3 +28,9 @@ ul > li > a:hover {
 .right {
  padding-right: 30px;
 }
+
+#header {
+ font-size: 40px;
+ color: #ffffff;
+ padding: 30 0 30 30
+}
