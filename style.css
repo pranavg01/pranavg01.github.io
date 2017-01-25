@@ -20,3 +20,7 @@ ul > li > a {
  text-decoration: none;
  color: #ffffff;
 }
+
+ul > li > a:hover {
+ color: #cfcfcf
+}
