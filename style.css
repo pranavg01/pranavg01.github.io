@@ -2,7 +2,7 @@ body {
  padding: 0;
  margin: 0;
  font-family:"Courier New", Courier, monospace;
- background-color: black;
+ background-color: #595959;
 }
 
 
@@ -35,6 +35,7 @@ ul > li > a:hover {
  text-decoration: none;
  background-color: #595959;
  text-align: right;
+ position: static;
 }
 
 .element {
