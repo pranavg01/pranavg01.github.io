@@ -35,7 +35,7 @@ ul > li > a:hover {
  text-decoration: none;
  background-color: #595959;
  text-align: right;
- position: static;
+ position: fixed;
 }
 
 .element {
