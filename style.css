@@ -26,7 +26,8 @@ ul > li > a:hover {
 #header {
  font-size: 25px;
  color: #ffffff;
- padding-right: 850px;
+ padding-right: 800px;
+ padding-left: 0px;
 }
 
 .nav {
