@@ -29,5 +29,10 @@ ul > li > a:hover {
 }
 
 .header{
- padding: 30 300 30 0;
+ padding-right: 800px;
+ color: white;
+}
+
+.header:hover {
+ color: #26C663;
 }
