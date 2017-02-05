@@ -9,5 +9,5 @@ ul {
 }
 
 ul > li {
- padding: 20px; 
+ padding: 20 0 20 0; 
 }
