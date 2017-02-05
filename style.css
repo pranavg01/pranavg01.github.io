@@ -5,9 +5,12 @@ body {
 
 ul {
  text-decoration: none;
-  display: inline-block;
+ background-color: grey;
+ position: fixed;
+ text-align: right;
 }
 
 ul > li {
- padding: 20 0 20 0; 
+ display: inline-block;
+ padding-right: 30px;
 }
