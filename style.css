@@ -13,7 +13,7 @@ ul {
  width: 100%;
 }
 
-.element{
+ul > li{
  display: inline-block;
  padding: 30 30 30 0;
  margin-right: 30px;
