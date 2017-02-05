@@ -1,1 +1,13 @@
+body {
+ padding: 0px;
+  margin: 0px;
+}
 
+ul {
+ text-decoration: none;
+  display: inline-block;
+}
+
+ul > li {
+ padding: 20px; 
+}
