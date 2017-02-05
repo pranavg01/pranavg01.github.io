@@ -16,6 +16,9 @@ ul {
  display: inline-block;
  padding: 30 30 30 0;
  margin-right: 30px;
+}
+
+#tingy {
  text-align: right;
 }
 
